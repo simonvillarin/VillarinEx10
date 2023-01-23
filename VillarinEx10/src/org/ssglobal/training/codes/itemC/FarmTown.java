@@ -1,5 +1,5 @@
 package org.ssglobal.training.codes.itemC;
 
-public record FarmTown() implements Game{
+public final record FarmTown() implements Game{
 
 }
