@@ -5,11 +5,11 @@ import java.util.Date;
 public class User {
 	private String name;
 	private Date birthday;
+	private User[] user;
 	private Address address;
 	private Content[] content;
 	private ProfilePicture profilePicture;
-	private Game[] game;
-	private User[] user;
+	private IGame[] game;
 
 	public String getName() {
 		return name;
